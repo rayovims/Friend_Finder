@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-left">
+                    <span class="glyphicon glyphicon-fire"></span>Survey Questions</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>About You</h2>
+                <h4>Name (Required)</h4>
+                <input id="name" type="text" class="form-control" aria-label="...">
+                <h4>Link to Photo Image (Required)</h4>
+                <input id="photo" type="text" class="form-control" aria-label="...">
+            </div>
+        </div>
+        <!--    questions generate-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 1</h2>
+                <h4>How well can you handle pressure?</h4>
+                <select id="q1">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 2</h2>
+                <h4>How motivated are you to make something awesome?</h4>
+                <select id="q2">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 3</h2>
+                <h4>How much do you agree with your current president?</h4>
+                <select id="q3">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 4</h2>
+                <h4>How likely are you to motivate yourself?</h4>
+                <select id="q4">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 5</h2>
+                <h4>Do you depend on others to make decisions for you?</h4>
+                <select id="q5">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 6</h2>
+                <h4>How active are you (exercise)?</h4>
+                <select id="q6">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 7</h2>
+                <h4>What game system do you prefer?</h4>
+                <select id="q7">
+                    <option value="1">Xbox</option>
+                    <option value="2">PlayStation</option>
+                    <option value="3">PC</option>
+                    <option value="4">Nintendo</option>
+                    <option value="5">Gym</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 8</h2>
+                <h4>How hours do you spend looking at a screen?</h4>
+                <select id="q8">
+                    <option value="1">1 (Not many)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (A lot)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 9</h2>
+                <h4>How Creative are you?</h4>
+                <select id="q9">
+                    <option value="1">1 (Not much)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Very)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Question 10</h2>
+                <h4>How reliable are you?</h4>
+                <select id="q10">
+                    <option value="1">1 (Not at all)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Very)</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+                    <p>Submit</p>
+                </button>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center" id="match-name">Modal Header</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="match-pic" height="350px" width="350px">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/rayovims/Friend-Finder">GitHub Repo</a>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        $("#submit").on("click", function () {
+            newUser = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: [($("#q1").val()), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(),]
+            };
+            $.post("/survey", newUser, function (data) {
+
+                console.log("NewUser added!");
+                console.log(data)
+                $("#match-name").text("Your match: " + data.name);
+                $("#match-pic").attr("src", data.photo);
+                $("#myModal").modal("toggle");
+            });
+        });
+    </script>
+</body>
+
+</html>
